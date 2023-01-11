@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Application\\Scaffold.Application.csproj",
+      "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Application\\Scaffold.Application.csproj",
       "projectName": "Scaffold.Application",
-      "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Application\\Scaffold.Application.csproj",
+      "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Application\\Scaffold.Application.csproj",
       "packagesPath": "C:\\Users\\gerce\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Application\\obj\\",
+      "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gerce\\AppData\\Roaming\\NuGet\\NuGet.Config",

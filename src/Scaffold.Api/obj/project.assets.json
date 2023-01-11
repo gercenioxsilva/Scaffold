@@ -317,11 +317,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\Scaffold.Api.csproj",
+      "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\Scaffold.Api.csproj",
       "projectName": "Scaffold.Api",
-      "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\Scaffold.Api.csproj",
+      "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\Scaffold.Api.csproj",
       "packagesPath": "C:\\Users\\gerce\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\obj\\",
+      "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gerce\\AppData\\Roaming\\NuGet\\NuGet.Config",

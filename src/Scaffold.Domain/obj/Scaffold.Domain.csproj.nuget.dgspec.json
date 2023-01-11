@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Domain\\Scaffold.Domain.csproj": {}
+    "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Domain\\Scaffold.Domain.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Domain\\Scaffold.Domain.csproj": {
+    "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Domain\\Scaffold.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Domain\\Scaffold.Domain.csproj",
+        "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Domain\\Scaffold.Domain.csproj",
         "projectName": "Scaffold.Domain",
-        "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Domain\\Scaffold.Domain.csproj",
+        "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Domain\\Scaffold.Domain.csproj",
         "packagesPath": "C:\\Users\\gerce\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Domain\\obj\\",
+        "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gerce\\AppData\\Roaming\\NuGet\\NuGet.Config",

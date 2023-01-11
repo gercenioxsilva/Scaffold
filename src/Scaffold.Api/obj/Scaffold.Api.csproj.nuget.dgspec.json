@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\Scaffold.Api.csproj": {}
+    "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\Scaffold.Api.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\Scaffold.Api.csproj": {
+    "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\Scaffold.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\Scaffold.Api.csproj",
+        "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\Scaffold.Api.csproj",
         "projectName": "Scaffold.Api",
-        "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\Scaffold.Api.csproj",
+        "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\Scaffold.Api.csproj",
         "packagesPath": "C:\\Users\\gerce\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.Api\\obj\\",
+        "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gerce\\AppData\\Roaming\\NuGet\\NuGet.Config",

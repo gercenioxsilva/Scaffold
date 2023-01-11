@@ -9,11 +9,8 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="11.1.0" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DependecyInjector\" />
-    <Folder Include="ConfigurationSettings\" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
   </ItemGroup>
 
 </Project>

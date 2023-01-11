@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj": {}
+    "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj": {}
   },
   "projects": {
-    "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj": {
+    "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj",
+        "projectUniqueName": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj",
         "projectName": "Scaffold.CrossCutting",
-        "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj",
+        "projectPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\gerce\\.nuget\\packages\\",
-        "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.CrossCutting\\obj\\",
+        "outputPath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gerce\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,14 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
