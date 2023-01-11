@@ -1,0 +1,12 @@
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\bin\Debug\net6.0\Scaffold.CrossCutting.deps.json
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\bin\Debug\net6.0\Scaffold.CrossCutting.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\bin\Debug\net6.0\Scaffold.CrossCutting.pdb
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.csproj.AssemblyReference.cache
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.AssemblyInfoInputs.cache
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.AssemblyInfo.cs
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.csproj.CoreCompileInputs.cache
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\refint\Scaffold.CrossCutting.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.pdb
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\ref\Scaffold.CrossCutting.dll

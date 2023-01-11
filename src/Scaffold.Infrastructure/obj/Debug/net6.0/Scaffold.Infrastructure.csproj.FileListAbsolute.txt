@@ -1,0 +1,12 @@
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\bin\Debug\net6.0\Scaffold.Infrastructure.deps.json
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\bin\Debug\net6.0\Scaffold.Infrastructure.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\bin\Debug\net6.0\Scaffold.Infrastructure.pdb
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.csproj.AssemblyReference.cache
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.AssemblyInfoInputs.cache
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.AssemblyInfo.cs
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.csproj.CoreCompileInputs.cache
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\refint\Scaffold.Infrastructure.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\Scaffold.Infrastructure.pdb
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.Infrastructure\obj\Debug\net6.0\ref\Scaffold.Infrastructure.dll

@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hFsWa4RC7qt6sBONGh/vIKNS6BCmN28qU559/zHhHuo9QvxBUf3O60pm6un8+xl29xUD5ce2OAIdcRD/FTLVag==",
+  "dgSpecHash": "4jw4wTg7f1ogfdLLg3nIDgHhCBrrabn5QiLfRJ+vEnpr+RDRti9jdG82ZLr7iuWPsWbXVAkEz2XyEKEPu7qEXQ==",
   "success": true,
   "projectFilePath": "D:\\repos\\Scaffold.DotNetCore.Ache\\Sacffold\\src\\Scaffold.Application\\Scaffold.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\gerce\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
+    "C:\\Users\\gerce\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\gerce\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
