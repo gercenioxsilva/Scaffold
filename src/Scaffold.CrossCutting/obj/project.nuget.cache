@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "p1Wdwef+D6o17G51iBoIfdCESFKqn0rYOzJ1CcGLcamjSYCnV0GQV3m0J3VGo3Py1qu8OEh0Ir99+zOHuf0fAw==",
+  "success": true,
+  "projectFilePath": "D:\\repos\\Scaffold.DotNetCore.Ache\\src\\Scaffold.CrossCutting\\Scaffold.CrossCutting.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gerce\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\gerce\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\gerce\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\gerce\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
