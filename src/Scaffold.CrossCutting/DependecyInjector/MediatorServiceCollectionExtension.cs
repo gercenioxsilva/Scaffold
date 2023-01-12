@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
-
+using Scaffold.Application.Core;
 
 namespace Scaffold.CrossCutting.DependecyInjector
 {
