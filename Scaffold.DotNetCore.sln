@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4C627EEE-232A-48D6-9DBA-EE2898A3B917}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5E62DD5F-460A-4CA9-A665-FB2C3CC9E3F1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5E62DD5F-460A-4CA9-A665-FB2C3CC9E3F1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scaffold.Domain", "src\Scaffold.Domain\Scaffold.Domain.csproj", "{BB06BD94-7C29-492E-9E75-00942E64FFFF}"
 EndProject
@@ -17,7 +17,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scaffold.Application", "src
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scaffold.Api", "src\Scaffold.Api\Scaffold.Api.csproj", "{BD8B85BE-5E0D-4A2F-BE8E-4AED5EEA10C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scaffold.Test", "test\Scaffold.Test\Scaffold.Test.csproj", "{060B27A6-51BF-4D1A-95DE-90F21DCA9A25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scaffold.Tests", "tests\Scaffold.Tests\Scaffold.Tests.csproj", "{060B27A6-51BF-4D1A-95DE-90F21DCA9A25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

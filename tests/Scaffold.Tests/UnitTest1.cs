@@ -1,4 +1,4 @@
-namespace Scaffold.Ache.Test
+namespace Scaffold.Test
 {
     public class UnitTest1
     {

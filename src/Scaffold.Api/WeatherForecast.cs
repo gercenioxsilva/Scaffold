@@ -1,4 +1,4 @@
-namespace Scaffold.Ache.Api
+namespace Scaffold.Api
 {
     public class WeatherForecast
     {
