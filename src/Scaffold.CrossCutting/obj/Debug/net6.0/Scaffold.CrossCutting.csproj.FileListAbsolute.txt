@@ -10,3 +10,6 @@ D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\n
 D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\refint\Scaffold.CrossCutting.dll
 D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.pdb
 D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\ref\Scaffold.CrossCutting.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\bin\Debug\net6.0\Scaffold.Application.dll
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\bin\Debug\net6.0\Scaffold.Application.pdb
+D:\repos\Scaffold.DotNetCore.Ache\Sacffold\src\Scaffold.CrossCutting\obj\Debug\net6.0\Scaffold.CrossCutting.csproj.CopyComplete
