@@ -10,8 +10,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 
-
+builder.Services.AddRepository();
 builder.Services.AddMediator();
+//builder.Services.AddRepository();
+
 
 builder.Services.AddRouting(x => x.LowercaseUrls = true);
 
