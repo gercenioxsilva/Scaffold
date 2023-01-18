@@ -1,4 +1,6 @@
+using System.Net;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
 using Scaffold.Application.UseCases.Products.GetAllProducts;
 using Scaffold.Application.UseCases.Products.GetProductById;
 using Scaffold.Application.UseCases.Products.NewProduct;

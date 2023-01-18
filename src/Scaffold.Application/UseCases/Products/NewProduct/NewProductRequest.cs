@@ -1,3 +1,6 @@
+using MediatR;
+using Scaffold.Domain.Seedwork;
+
 namespace Scaffold.Application.UseCases.Products.NewProduct;
 
 public class NewProductRequest : IRequest<ServiceResult<NewProductResponse>>

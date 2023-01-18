@@ -1,4 +1,5 @@
-﻿using Scaffold.Application.Handlers;
+﻿using FluentValidation;
+using Scaffold.Application.Handlers;
 
 namespace Scaffold.Application.Validation
 {

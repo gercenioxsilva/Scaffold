@@ -1,11 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using Scaffold.Domain.AggregatesModel.ProductAggregate;
 using Scaffold.Domain.Seedwork;
 
 namespace Scaffold.Infrastructure.Contexts;
 
 public class ScaffoldContext : DbContext, IUnitOfWork
 {
-    public const string DEFAULT_SCHEMA = "dbo";
-
     public DbSet<Product> Products { get; set; }
 
 
@@ -13,13 +13,13 @@ public class ScaffoldContext : DbContext, IUnitOfWork
     {
     }
 
-
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseInMemoryDatabase(databaseName: "SQL_ACHE");
 
         base.OnConfiguring(optionsBuilder);
     }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -31,7 +31,7 @@ public class ScaffoldContext : DbContext, IUnitOfWork
         base.OnModelCreating(modelBuilder);
     }
 
-    public async Task<bool> CommitAsync(CancellationToken cancellationToken = default(CancellationToken))
+    public async Task<bool> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken))
     {
         var entries = ChangeTracker
             .Entries()

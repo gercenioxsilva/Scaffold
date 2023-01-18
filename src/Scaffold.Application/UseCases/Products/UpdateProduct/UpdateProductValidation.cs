@@ -1,3 +1,5 @@
+using FluentValidation;
+
 namespace Scaffold.Application.UseCases.Products.UpdateProduct;
 
 public class UpdateProductValidation : AbstractValidator<UpdateProductRequest>

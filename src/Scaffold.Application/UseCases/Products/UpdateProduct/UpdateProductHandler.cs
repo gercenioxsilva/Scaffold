@@ -1,4 +1,7 @@
+using System.Net;
+using MediatR;
 using Scaffold.Domain.AggregatesModel.ProductAggregate;
+using Scaffold.Domain.Seedwork;
 
 namespace Scaffold.Application.UseCases.Products.UpdateProduct;
 
@@ -25,7 +28,7 @@ public class UpdateProductHandler:
         
         _productRepository.Update(product);
         
-        await _productRepository.UnitOfWork.CommitAsync(cancellationToken);
+        await _productRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
 
         return new ServiceResult<UpdateProductResponse>(HttpStatusCode.NoContent);
     }

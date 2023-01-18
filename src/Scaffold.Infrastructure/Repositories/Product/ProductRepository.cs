@@ -1,4 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Scaffold.Domain.AggregatesModel.ProductAggregate;
 using Scaffold.Domain.Seedwork;
+using Scaffold.Infrastructure.Contexts;
 
 namespace Scaffold.Infrastructure.Repositories.Product;
 

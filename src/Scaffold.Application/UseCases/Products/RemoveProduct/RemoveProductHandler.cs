@@ -1,4 +1,7 @@
+using System.Net;
+using MediatR;
 using Scaffold.Domain.AggregatesModel.ProductAggregate;
+using Scaffold.Domain.Seedwork;
 
 namespace Scaffold.Application.UseCases.Products.RemoveProduct;
 
@@ -23,7 +26,7 @@ public class RemoveProductHandler :
         }
 
         _productRepository.Remove(product);
-        await _productRepository.UnitOfWork.CommitAsync(cancellationToken);
+        await _productRepository.UnitOfWork.SaveChangesAsync(cancellationToken);
 
         return new ServiceResult<RemoveProductResponse>(HttpStatusCode.NoContent);
     }

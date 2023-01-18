@@ -1,3 +1,5 @@
+using Scaffold.Domain.Seedwork;
+
 namespace Scaffold.Domain.AggregatesModel.ProductAggregate;
 
 public class Product : Entity, IAggregateRoot

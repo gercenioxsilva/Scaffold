@@ -2,5 +2,5 @@ namespace Scaffold.Domain.Seedwork;
 
 public interface IUnitOfWork : IDisposable
 {
-    Task<bool> CommitAsync(CancellationToken cancellationToken = default(CancellationToken));
+    Task<bool> SaveChangesAsync(CancellationToken cancellationToken = default(CancellationToken));
 }

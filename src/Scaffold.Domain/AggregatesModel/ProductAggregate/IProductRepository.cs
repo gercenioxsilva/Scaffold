@@ -1,4 +1,5 @@
 using System.Linq.Expressions;
+using Scaffold.Domain.Seedwork;
 
 namespace Scaffold.Domain.AggregatesModel.ProductAggregate;
 

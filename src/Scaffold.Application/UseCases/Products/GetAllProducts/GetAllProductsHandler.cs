@@ -1,4 +1,7 @@
+using System.Net;
+using MediatR;
 using Scaffold.Domain.AggregatesModel.ProductAggregate;
+using Scaffold.Domain.Seedwork;
 
 namespace Scaffold.Application.UseCases.Products.GetAllProducts;
 
