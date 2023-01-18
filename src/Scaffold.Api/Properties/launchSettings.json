@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "Scaffold.Ache.Api": {
+    "Scaffold.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",
