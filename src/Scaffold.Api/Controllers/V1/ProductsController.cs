@@ -10,8 +10,10 @@ using Scaffold.Domain.Seedwork;
 
 namespace Scaffold.Api.Controllers.V1;
 
+[Route("api/v{version:apiVersion}/[controller]")]
 [ApiController]
-[Route("v1/[controller]")]
+[ApiVersion("1")]
+[ApiExplorerSettings(GroupName = "v1")]
 public class ProductsController : ControllerBase
 {
     private readonly ILogger<ProductsController> _logger;

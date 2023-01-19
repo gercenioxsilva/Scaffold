@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Scaffold.Application.Handlers;
 
-namespace Scaffold.Api.Controllers.v1
+namespace Scaffold.Api.Controllers.V1
 {
     [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
