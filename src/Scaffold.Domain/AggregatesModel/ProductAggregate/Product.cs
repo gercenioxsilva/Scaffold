@@ -8,11 +8,6 @@ public class Product : Entity, IAggregateRoot
     public string Description { get; private set; }
     public decimal? Amount { get; private set; }
 
-    public Product()
-    {
-        
-    }
-
     public Product(string name, string description, decimal? amount)
     {
         Name = name;

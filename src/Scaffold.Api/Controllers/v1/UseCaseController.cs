@@ -14,7 +14,7 @@ namespace Scaffold.Api.Controllers.V1
     {
         [HttpPost]
         [ProducesResponseType(typeof(UseCaseRequest), StatusCodes.Status201Created)]
-        public async Task<ActionResult> Create([FromServices] IMediator _mediator, [FromBody] UseCaseRequest request)
+        public async Task<ActionResult> CreateAsync([FromServices] IMediator _mediator, [FromBody] UseCaseRequest request)
             => Ok(_mediator.Send(request));
     }
 }
