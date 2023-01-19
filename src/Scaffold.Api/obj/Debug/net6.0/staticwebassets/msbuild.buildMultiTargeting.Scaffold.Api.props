@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\Scaffold.Api.props" />
-</Project>
