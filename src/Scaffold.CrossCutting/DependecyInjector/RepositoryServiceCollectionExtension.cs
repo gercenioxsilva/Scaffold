@@ -12,7 +12,7 @@ namespace Scaffold.CrossCutting.DependecyInjector
         {
             services.AddDbContext<ScaffoldContext>();
             services.AddDbContext<ScaffoldContext>(options =>
-                options.UseInMemoryDatabase(databaseName: "SQL_ACHE"));
+                options.UseInMemoryDatabase(databaseName: "SQL_QCOISA"));
 
             services.AddScoped<IProductRepository, ProductRepository>();
             return services;

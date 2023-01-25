@@ -7,16 +7,16 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/Scaffold.Ache.Api/Scaffold.Ache.Api.csproj", "src/Scaffold.Ache.Api/"]
-RUN dotnet restore "src/Scaffold.Ache.Api/Scaffold.Ache.Api.csproj"
+COPY ["src/Scaffold.Ache.Api/Scaffold.Api.csproj", "src/Scaffold.Api/"]
+RUN dotnet restore "src/Scaffold.Api/Scaffold.Api.csproj"
 COPY . .
-WORKDIR "/src/src/Scaffold.Ache.Api"
-RUN dotnet build "Scaffold.Ache.Api.csproj" -c Release -o /app/build
+WORKDIR "/src/src/Scaffold.Api"
+RUN dotnet build "Scaffold.Api.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "Scaffold.Ache.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "Scaffold.Api.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "Scaffold.Ache.Api.dll"]
+ENTRYPOINT ["dotnet", "Scaffold.Api.dll"]
