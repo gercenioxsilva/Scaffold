@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Scaffold.Domain\Scaffold.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="UseCases\Products\" />
+  </ItemGroup>
+
 </Project>

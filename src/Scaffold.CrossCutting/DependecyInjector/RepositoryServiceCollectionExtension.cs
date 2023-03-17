@@ -1,8 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using Scaffold.Domain.AggregatesModel.ProductAggregate;
-using Scaffold.Infrastructure.Contexts;
-using Scaffold.Infrastructure.Repositories.Product;
+﻿using Microsoft.Extensions.DependencyInjection;
 
 namespace Scaffold.CrossCutting.DependecyInjector
 {
@@ -10,11 +6,7 @@ namespace Scaffold.CrossCutting.DependecyInjector
     {
         public static IServiceCollection AddRepository(this IServiceCollection services)
         {
-            services.AddDbContext<ScaffoldContext>();
-            services.AddDbContext<ScaffoldContext>(options =>
-                options.UseInMemoryDatabase(databaseName: "SQL_QCOISA"));
-
-            services.AddScoped<IProductRepository, ProductRepository>();
+            
             return services;
         }
     }

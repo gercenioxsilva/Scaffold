@@ -6,5 +6,7 @@ namespace Scaffold.Domain.Entities
     {
 
         public string Name { get; private set; }
+        public string Document { get; private set; }
+
     }
 }
