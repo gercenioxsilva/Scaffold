@@ -12,9 +12,13 @@ namespace Scaffold.Api.Controllers.V1
     [ProducesResponseType(StatusCodes.Status500InternalServerError)]
     public class UseCaseController : ControllerBase
     {
+        private IMediator _mediator;
+
+        public UseCaseController(IMediator mediator) => _mediator = mediator;
+        
         [HttpPost]
         [ProducesResponseType(typeof(UseCaseRequest), StatusCodes.Status201Created)]
-        public async Task<ActionResult> CreateAsync([FromServices] IMediator _mediator, [FromBody] UseCaseRequest request)
+        public async Task<ActionResult> CreateAsync([FromBody] UseCaseRequest request)
             => Ok(_mediator.Send(request));
     }
 }

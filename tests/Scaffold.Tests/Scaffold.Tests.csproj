@@ -25,8 +25,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\Scaffold.Api\Scaffold.Api.csproj" />
     <ProjectReference Include="..\..\src\Scaffold.Application\Scaffold.Application.csproj" />
-    <ProjectReference Include="..\..\src\Scaffold.Domain\Scaffold.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
