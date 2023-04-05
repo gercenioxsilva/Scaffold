@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  scaffold.api:
+    image: ${DOCKER_REGISTRY-}scaffoldapi
+    build:
+      context: .
+      dockerfile: src/Scaffold.Api/Dockerfile

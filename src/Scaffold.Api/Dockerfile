@@ -7,7 +7,11 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["src/Scaffold.Ache.Api/Scaffold.Api.csproj", "src/Scaffold.Api/"]
+COPY ["src/Scaffold.Api/Scaffold.Api.csproj", "src/Scaffold.Api/"]
+COPY ["src/Scaffold.Application/Scaffold.Application.csproj", "src/Scaffold.Application/"]
+COPY ["src/Scaffold.Domain/Scaffold.Domain.csproj", "src/Scaffold.Domain/"]
+COPY ["src/Scaffold.CrossCutting/Scaffold.CrossCutting.csproj", "src/Scaffold.CrossCutting/"]
+COPY ["src/Scaffold.Infrastructure/Scaffold.Infrastructure.csproj", "src/Scaffold.Infrastructure/"]
 RUN dotnet restore "src/Scaffold.Api/Scaffold.Api.csproj"
 COPY . .
 WORKDIR "/src/src/Scaffold.Api"
